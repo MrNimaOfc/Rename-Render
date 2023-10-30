@@ -74,17 +74,17 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" Developer ", url='https://t.me/anjel_neha')
+        InlineKeyboardButton(" 👨‍💻 Developer ", url='https://t.me/MrNimaUi')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/VJ_Bots'),
-        InlineKeyboardButton(' Support', url='https://t.me/vj_bot_disscussion')
+        InlineKeyboardButton(' 📢 Updates', url='https://t.me/MrNima_Ofc'),
+        InlineKeyboardButton(' 🤝 Support', url='https://t.me/MrNima_Support')
         ],[
-        InlineKeyboardButton(' About', callback_data='about'),
-        InlineKeyboardButton(' Help', callback_data='help')
+        InlineKeyboardButton(' 💡 About', callback_data='about'),
+        InlineKeyboardButton(' 🙄 Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/vj_bots')
+        InlineKeyboardButton(" 🔥 Join Our WhatsApp !", url='https://chat.whatsapp.com/Colb0xpqFfVJHUPHuL7IJH')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Tech_VJ')
+        InlineKeyboardButton("💸 Join Crypto Group", url='https://chat.whatsapp.com/GtTe4CVbUO4FQfVUin1lCV')
         ]
         ]
                 )
