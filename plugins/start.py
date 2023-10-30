@@ -18,15 +18,15 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.\n\nSend me any video or document !"
+    txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.Send me any video or document !\n\n⚡ Devoloped By Mr.Nima"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton(" Developer ", url='https://t.me/anjel_neha')
+        InlineKeyboardButton(" Developer ", url='https://t.me/MrNimaUi')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/VJ_Bots'),
-        InlineKeyboardButton(' Support', url='https://t.me/vj_bot_disscussion')
+        InlineKeyboardButton(' 📢 Updates', url='https://t.me/MrNima_Ofc'),
+        InlineKeyboardButton(' 🤝 Support', url='https://t.me/MrNima_Support')
         ],[
-        InlineKeyboardButton(' About', callback_data='about'),
-        InlineKeyboardButton(' Help', callback_data='help')
+        InlineKeyboardButton(' 💡 About', callback_data='about'),
+        InlineKeyboardButton(' 🙄 Help', callback_data='help')
         ],[
         InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/VJ_Bots')
         ],[
