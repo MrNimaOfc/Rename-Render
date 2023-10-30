@@ -20,7 +20,7 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.Send me any video or document !\n\n⚡ Devoloped By Mr.Nima"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton(" Developer ", url='https://t.me/MrNimaUi')
+        InlineKeyboardButton(" 👨‍💻 Developer ", url='https://t.me/MrNimaUi')
         ],[
         InlineKeyboardButton(' 📢 Updates', url='https://t.me/MrNima_Ofc'),
         InlineKeyboardButton(' 🤝 Support', url='https://t.me/MrNima_Support')
@@ -28,9 +28,9 @@ async def start(client, message):
         InlineKeyboardButton(' 💡 About', callback_data='about'),
         InlineKeyboardButton(' 🙄 Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/VJ_Bots')
+        InlineKeyboardButton(" 🔥 Join Our WhatsApp !", url='https://chat.whatsapp.com/Colb0xpqFfVJHUPHuL7IJH')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Tech_VJ')
+        InlineKeyboardButton(" 💸 Join Crypto Group ", url='https://chat.whatsapp.com/GtTe4CVbUO4FQfVUin1lCV')
         ]
         ])
     if START_PIC:
