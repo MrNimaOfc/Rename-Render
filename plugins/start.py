@@ -93,10 +93,10 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+               InlineKeyboardButton(" 🙄 Help", url="https://t.me/MrNima_Support")
                ],[
-               InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
+               InlineKeyboardButton(" 🔐 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+               InlineKeyboardButton(" ◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
                ]]
             )
         )
@@ -105,10 +105,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+                InlineKeyboardButton(" 💡 About", url="https://t.me/MrNima_Ofc")
                ],[
-               InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
+               InlineKeyboardButton(" 🔐 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+               InlineKeyboardButton(" ◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
                ]]
             )
         )
@@ -116,10 +116,10 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+                InlineKeyboardButton(" 👨‍💻 Developer ", url="https://t.me/MrNimaUi")
                ],[
-               InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
+               InlineKeyboardButton(" 🔐 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+               InlineKeyboardButton(" ◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
                ]]
             )
         )
